@@ -9,12 +9,9 @@ require __dir__ . '/../vendor/autoload.php';
 $container = new Container();
 
 $container->set('templating', function() {
-    return new Mustache_Engine([
-        'loader' => new Mustache_Loader_FilesystemLoader(
-            __DIR__ . '/../templates',
-            ['extension' => '']
-        )
-    ]);
+    return new Twig\Environment(
+        new Twig\Loader\FilesystemLoader(__DIR__ . '/../templates')
+    );
 });
 
 AppFactory::setContainer($container);
@@ -22,6 +19,6 @@ AppFactory::setContainer($container);
 $app = AppFactory::create();
 
 $app->get('/', '\App\Controller\DashboardController:default');
-$app->get('/clients', '\App\Controller\ClientController:client');
+// $app->get('/clients', '\src\controller\ClientController:client');
 
 $app->run();
