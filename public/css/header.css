@@ -1,0 +1,60 @@
+#header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e4e5e7;
+  height: 56px;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+.header-elements {
+  height: 100%;
+}
+
+#logo-fatturare {
+  width: 210px;
+  padding: 2px 20px;
+  background-color: #f7f9fa;
+}
+
+.highligth-div-header {
+  background-color: #f7f9fa;
+  border-right: 1px solid #e4e5e7;
+}
+
+#icons-section {
+  width: 100%;
+}
+
+.icon-div {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.icon {
+  color: #b6b3b3;
+  font-size: 20px;
+  height: 56px;
+  padding: 0 25px;
+  width: 100%;
+}
+
+.icon:hover {
+  background-color: #f7f8fa;
+}
+
+.icon-menu {
+  padding: 0 20px;
+  font-size: 18px;
+}
+
+.icon-menu:hover {
+  background-color: #f1f4f6;
+}
+
+.icon:last-child {
+  font-size: 25px;
+  transform: rotate(270deg);
+  width: 56px;
+}

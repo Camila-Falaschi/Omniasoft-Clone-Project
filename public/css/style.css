@@ -1,69 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-#header {
-    border-bottom: 1px solid #e4e5e7;
-    height: 56px;
-    background-color: #ffffff;
-}
-
-.header-elements {
-    height: 100%;
+  box-sizing: border-box;
+  color: #6a6c6f;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .flex-center {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-#logo-fatturare {
-    width: 210px;
-    padding: 2px 20px;
-    background-color: #f7f9fa;
-}
-
-.highligth-div-header {
-    background-color: #f7f9fa;
-    border-right: 1px solid #e4e5e7;
-}
-
-#icons-section {
-    width: 100%;
-}
-
-.icon-div {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.icon {
-    color: #b6b3b3;
-    font-size: 20px;
-    height: 56px;
-    padding: 0 25px;
-    width: 100%;
-}
-
-.icon:hover {
-    background-color: #F7F8FA;
-}
-
-.icon-menu {
-    padding: 0 20px;
-    font-size: 18px;
-}
-
-.icon-menu:hover {
-    background-color: #F1F4F6;
-}
-
-.icon:last-child {
-    font-size: 25px;
-    transform: rotate(270deg);
-    width: 56px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
