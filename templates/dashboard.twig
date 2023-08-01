@@ -15,12 +15,14 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="/js/main.js"></script>
     </head>
-    <body>
+    <body class='d-flex flex-column'>
         {% include 'header.twig' %}
-        {% include 'aside.twig' %}
-        <section class='d-flex'>
-            <div />
-            {% include 'footer.twig' %}
-        </section>
+        <div class='d-flex'>
+            {% include 'aside.twig' %}
+            <section class='d-flex flex-column'>
+                <main><p>test</p></main>
+                {% include 'footer.twig' %}
+            </section>
+        </div>
     </body>
 </html>
