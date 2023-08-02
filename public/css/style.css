@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body, main {
+  background-color: #F1F3F6;
+}
+
 .flex-center {
   align-items: center;
   display: flex;
@@ -13,7 +17,7 @@
 }
 
 #main {
-  background-color: #F1F3F6;
+  flex-flow: column;
   height: calc(100% - 40px);
   position: absolute;
   right: 0;

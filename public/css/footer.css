@@ -4,7 +4,7 @@
     bottom: 0;
     font-size: 14px;
     height: 40px;
-    position: absolute;
+    position: fixed;
     right: 0;
     width: calc(100% - 180px);
 }

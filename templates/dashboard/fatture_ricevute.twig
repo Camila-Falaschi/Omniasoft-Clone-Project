@@ -1,0 +1,35 @@
+{% set fatture_length = fatture_ricevute|length %}
+{% set fatture_pagati = filter_by_status(fatture_ricevute, 'pagato') %}
+{% set total_pagato = calculate_total_price(fatture_ricevute, 'pagato') %}
+{% set fatture_scartati = filter_by_status(fatture_ricevute, 'scartato') %}
+{% set total_scartato = calculate_total_price(fatture_ricevute, 'scartato') %}
+
+<div>
+    <div>
+        <h3>FATTURE RICEVUTE</h3>
+        <h1>{{ fatture_length }}</h1>
+    </div>
+    <div>
+        <h3 class="text-success">{{ fatture_pagati|length }}</h3>
+        <div>
+            <p>Pagati</p>
+            <div>
+                <span class="text-info">€ {{ total_pagato }}</span>
+                |
+                {{ (fatture_pagati|length / fatture_length * 100)|number_format(1) }}%
+            </div>
+        </div>
+    </div>
+    <div>
+        <h3>{{ fatture_scartati|length }}</h3>
+        <div>
+            <p>Scartati</p>
+            <div>
+                <span class="text-info">€ {{ total_scartato }}</span>
+                |
+                {{ (fatture_scartati|length / fatture_length * 100)|number_format(1) }}%
+            </div>
+        </div>
+    </div>
+    <div>Resoconto fatture emesse</div>
+</div>
