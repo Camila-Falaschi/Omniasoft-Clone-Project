@@ -1,0 +1,17 @@
+<div>
+    <h2>Dashboard</h2>
+    <p>
+        Ragione sociale:
+        <span>{{ user_data.name }}</span>
+    </p>
+</div>
+<div>
+    <h3>
+        Fatture rimanenti:
+        <span>{{ user_data.fatture_disponibili }}</span>
+        <small> / {{ user_data.totale_fatture }}</small>
+    </h3>
+    <p>Scadenza servizio: 
+        <span>{{ user_data.scadenza_servizio }}</span>
+    </p>
+</div>

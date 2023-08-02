@@ -1,0 +1,16 @@
+{% extends "base.twig" %}
+
+{% block title %}Dashboard - Fatturare{% endblock %}
+
+{% block additional_style %}
+    <link href="/css/dashboard.css" rel="stylesheet">
+{% endblock %}
+
+{% block main %}
+    {% include 'dashboard/user_account_view.twig' %}
+    <div>
+        <i class="bi bi-exclamation-circle-fill"></i>
+        <p> Si sta utilizzando una versione di prova, alcune funzioni potrebbero essere limitate</p>
+    </div>
+    {% include 'dashboard/fatture_emesse.twig' %}
+{% endblock %}

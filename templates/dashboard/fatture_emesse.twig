@@ -1,0 +1,22 @@
+{% set fatture_length = fatture_emesse|length %}
+{% set fatture_inviati = filter_by_status(fatture_emesse, 'inviato') %}
+{% set total_inviato = calculate_total_price(fatture_emesse, 'inviato') %}
+
+<div>
+    <div>
+        <h3>FATTURE EMESSE</h3>
+        <h1>{{ fatture_length }}</h1>
+    </div>
+    <div>
+        <h3>{{ fatture_inviati|length }}</h3>
+        <div>
+            <p>Inviati</p>
+            <div>
+                <span class="text-info">€ {{ total_inviato }}</span>
+                |
+                {{ (fatture_inviati|length / fatture_length * 100)|number_format(1) }}%
+            </div>
+        </div>
+    </div>
+    <div>Resoconto fatture emesse</div>
+</div>

@@ -17,7 +17,15 @@ class DashboardController extends Controller
         $prodotti = json_decode(file_get_contents(__DIR__ . '/../../data/prodotti.json'), true);
         $news = json_decode(file_get_contents(__DIR__ . '/../../data/news.json'), true);
 
-        return $this->render($response, 'dashboard.twig', [
+        require_once __DIR__ . '/../../helpers/functions.php';
+
+        $twig = $this->ci->get('templating');
+
+        $twig->addFunction(new \Twig\TwigFunction('filter_by_status', 'filter_by_status'));
+        $twig->addFunction(new \Twig\TwigFunction('calculate_total_price', 'calculate_total_price'));
+
+
+        return $this->render($response, 'dashboard/dashboard.twig', [
             'user_data' => $user_data,
             'fatture_emesse' => $fatture_emesse,
             'fatture_ricevute' => $fatture_ricevute,
