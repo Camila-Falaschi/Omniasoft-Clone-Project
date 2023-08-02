@@ -1,0 +1,15 @@
+<div>
+    <div>
+        <h3>News</h3>
+        <p>Ultime novità</p>
+    </div>
+    <i class="bi bi-newspaper"></i>
+    <div>
+        {% for new in news %}
+            <div>
+                <h4>{{ new.titolo }}</h4>
+                <p><i class="bi bi-clock"></i> Pubblicato {{ new.data_pubblicazione }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</div>
