@@ -7,5 +7,21 @@
 {% endblock %}
 
 {% block main %}
-    <div>Olá</div>
+    <div>
+        <h2>Dashboard</h2>
+        <p>
+            Ragione sociale:
+            <span></span>
+        </p>
+    </div>
+    <div>
+        <h3>
+            Fatture rimanenti:
+            <span>{{fatture_disponibili}}</span>
+            <small> / {{totale_fatture}}</small>
+        </h3>
+        <p>Scadenza servizio: 
+            <span>{{scadenza_servizio}}</span>
+        </p>
+    </div>
 {% endblock %}

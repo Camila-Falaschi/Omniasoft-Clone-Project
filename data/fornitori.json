@@ -1,55 +1,53 @@
-{
-  "fornitori": [
-    {
-      "nome": "Fornitore A"
-    },
-    {
-      "nome": "Fornitore B"
-    },
-    {
-      "nome": "Fornitore C"
-    },
-    {
-      "nome": "Fornitore D"
-    },
-    {
-      "nome": "Fornitore E"
-    },
-    {
-      "nome": "Giovanni Rossi"
-    },
-    {
-      "nome": "Laura Bianchi"
-    },
-    {
-      "nome": "Stefano Verdi"
-    },
-    {
-      "nome": "Francesca Romano"
-    },
-    {
-      "nome": "Mario Moretti"
-    },
-    {
-      "nome": "Chiara Ferrari"
-    },
-    {
-      "nome": "Roberto Esposito"
-    },
-    {
-      "nome": "Maria Russo"
-    },
-    {
-      "nome": "Paolo Gatti"
-    },
-    {
-      "nome": "Sara De Luca"
-    },
-    {
-      "nome": "Dario Conti"
-    },
-    {
-      "nome": "Alessandra Gentile"
-    }
-  ]
-}
+[
+  {
+    "nome": "Fornitore A"
+  },
+  {
+    "nome": "Fornitore B"
+  },
+  {
+    "nome": "Fornitore C"
+  },
+  {
+    "nome": "Fornitore D"
+  },
+  {
+    "nome": "Fornitore E"
+  },
+  {
+    "nome": "Giovanni Rossi"
+  },
+  {
+    "nome": "Laura Bianchi"
+  },
+  {
+    "nome": "Stefano Verdi"
+  },
+  {
+    "nome": "Francesca Romano"
+  },
+  {
+    "nome": "Mario Moretti"
+  },
+  {
+    "nome": "Chiara Ferrari"
+  },
+  {
+    "nome": "Roberto Esposito"
+  },
+  {
+    "nome": "Maria Russo"
+  },
+  {
+    "nome": "Paolo Gatti"
+  },
+  {
+    "nome": "Sara De Luca"
+  },
+  {
+    "nome": "Dario Conti"
+  },
+  {
+    "nome": "Alessandra Gentile"
+  }
+]

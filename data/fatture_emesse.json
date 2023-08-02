@@ -1,660 +1,658 @@
-{
-  "fatture_emesse": [
-    {
-      "status": "pagato",
-      "valore": 2500,
-      "IMP": 200,
-      "IVA": 40,
-      "RIS": 10,
-      "RIM": 0
-    },
-    {
-      "status": "consegnato",
-      "valore": 1800,
-      "IMP": 150,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 3200,
-      "IMP": 260,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "scartato",
-      "valore": 1000,
-      "IMP": 80,
-      "IVA": 20,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "inviato",
-      "valore": 4000,
-      "IMP": 350,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 2500,
-      "IMP": 200,
-      "IVA": 40,
-      "RIS": 10,
-      "RIM": 0
-    },
-    {
-      "status": "consegnato",
-      "valore": 1800,
-      "IMP": 150,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 3200,
-      "IMP": 260,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "scartato",
-      "valore": 1000,
-      "IMP": 80,
-      "IVA": 20,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "inviato",
-      "valore": 4000,
-      "IMP": 350,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 1500,
-      "IMP": 120,
-      "IVA": 20,
-      "RIS": 10,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 2100,
-      "IMP": 160,
-      "IVA": 40,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "inviato",
-      "valore": 2800,
-      "IMP": 220,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "consegnato",
-      "valore": 900,
-      "IMP": 60,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 3500,
-      "IMP": 300,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 1900,
-      "IMP": 150,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "pagato",
-      "valore": 2500,
-      "IMP": 200,
-      "IVA": 40,
-      "RIS": 10,
-      "RIM": 0
-    },
-    {
-      "status": "consegnato",
-      "valore": 1800,
-      "IMP": 150,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 3200,
-      "IMP": 260,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "scartato",
-      "valore": 1000,
-      "IMP": 80,
-      "IVA": 20,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "inviato",
-      "valore": 4000,
-      "IMP": 350,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 1500,
-      "IMP": 120,
-      "IVA": 20,
-      "RIS": 10,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 2100,
-      "IMP": 160,
-      "IVA": 40,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "inviato",
-      "valore": 2800,
-      "IMP": 220,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "consegnato",
-      "valore": 900,
-      "IMP": 60,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 3500,
-      "IMP": 300,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 1900,
-      "IMP": 150,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "inviato",
-      "valore": 2600,
-      "IMP": 200,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "pagato",
-      "valore": 1200,
-      "IMP": 100,
-      "IVA": 20,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 2500,
-      "IMP": 200,
-      "IVA": 40,
-      "RIS": 10,
-      "RIM": 0
-    },
-    {
-      "status": "consegnato",
-      "valore": 1800,
-      "IMP": 150,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 3200,
-      "IMP": 260,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "scartato",
-      "valore": 1000,
-      "IMP": 80,
-      "IVA": 20,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "inviato",
-      "valore": 4000,
-      "IMP": 350,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 1500,
-      "IMP": 120,
-      "IVA": 20,
-      "RIS": 10,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 2100,
-      "IMP": 160,
-      "IVA": 40,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "inviato",
-      "valore": 2800,
-      "IMP": 220,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "consegnato",
-      "valore": 900,
-      "IMP": 60,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 3500,
-      "IMP": 300,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 1900,
-      "IMP": 150,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "inviato",
-      "valore": 2600,
-      "IMP": 200,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "pagato",
-      "valore": 1200,
-      "IMP": 100,
-      "IVA": 20,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "inviato",
-      "valore": 3400,
-      "IMP": 280,
-      "IVA": 60,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "pagato",
-      "valore": 3100,
-      "IMP": 260,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "scartato",
-      "valore": 900,
-      "IMP": 70,
-      "IVA": 20,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 4200,
-      "IMP": 350,
-      "IVA": 70,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 2800,
-      "IMP": 230,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "consegnato",
-      "valore": 1700,
-      "IMP": 140,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 3400,
-      "IMP": 300,
-      "IVA": 40,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "inviato",
-      "valore": 3000,
-      "IMP": 260,
-      "IVA": 40,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "scartato",
-      "valore": 1200,
-      "IMP": 90,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "inviato",
-      "valore": 4200,
-      "IMP": 380,
-      "IVA": 40,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 2000,
-      "IMP": 160,
-      "IVA": 40,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 1700,
-      "IMP": 140,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "consegnato",
-      "valore": 2100,
-      "IMP": 180,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "inviato",
-      "valore": 1800,
-      "IMP": 150,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 3900,
-      "IMP": 350,
-      "IVA": 40,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "inviato",
-      "valore": 2300,
-      "IMP": 200,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 2500,
-      "IMP": 200,
-      "IVA": 40,
-      "RIS": 10,
-      "RIM": 0
-    },
-    {
-      "status": "consegnato",
-      "valore": 1800,
-      "IMP": 150,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 3200,
-      "IMP": 260,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "scartato",
-      "valore": 1000,
-      "IMP": 80,
-      "IVA": 20,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "inviato",
-      "valore": 4000,
-      "IMP": 350,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 1500,
-      "IMP": 120,
-      "IVA": 20,
-      "RIS": 10,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 2100,
-      "IMP": 160,
-      "IVA": 40,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "inviato",
-      "valore": 2800,
-      "IMP": 220,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "consegnato",
-      "valore": 900,
-      "IMP": 60,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 3500,
-      "IMP": 300,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 1900,
-      "IMP": 150,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "inviato",
-      "valore": 2600,
-      "IMP": 200,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "pagato",
-      "valore": 1200,
-      "IMP": 100,
-      "IVA": 20,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "inviato",
-      "valore": 3400,
-      "IMP": 280,
-      "IVA": 60,
-      "RIS": 0,
-      "RIM": 10
-    },
-    {
-      "status": "pagato",
-      "valore": 3100,
-      "IMP": 260,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "scartato",
-      "valore": 900,
-      "IMP": 70,
-      "IVA": 20,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 4200,
-      "IMP": 350,
-      "IVA": 70,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 2800,
-      "IMP": 230,
-      "IVA": 50,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "consegnato",
-      "valore": 1700,
-      "IMP": 140,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 3400,
-      "IMP": 300,
-      "IVA": 40,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "inviato",
-      "valore": 3000,
-      "IMP": 260,
-      "IVA": 40,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "scartato",
-      "valore": 1200,
-      "IMP": 90,
-      "IVA": 30,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "inviato",
-      "valore": 4200,
-      "IMP": 380,
-      "IVA": 40,
-      "RIS": 0,
-      "RIM": 0
-    },
-    {
-      "status": "pagato",
-      "valore": 2000,
-      "IMP": 160,
-      "IVA": 40,
-      "RIS": 0,
-      "RIM": 0
-    }
-  ]
-}
+[
+  {
+    "status": "pagato",
+    "valore": 2500,
+    "IMP": 200,
+    "IVA": 40,
+    "RIS": 10,
+    "RIM": 0
+  },
+  {
+    "status": "consegnato",
+    "valore": 1800,
+    "IMP": 150,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 3200,
+    "IMP": 260,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "scartato",
+    "valore": 1000,
+    "IMP": 80,
+    "IVA": 20,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "inviato",
+    "valore": 4000,
+    "IMP": 350,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 2500,
+    "IMP": 200,
+    "IVA": 40,
+    "RIS": 10,
+    "RIM": 0
+  },
+  {
+    "status": "consegnato",
+    "valore": 1800,
+    "IMP": 150,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 3200,
+    "IMP": 260,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "scartato",
+    "valore": 1000,
+    "IMP": 80,
+    "IVA": 20,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "inviato",
+    "valore": 4000,
+    "IMP": 350,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 1500,
+    "IMP": 120,
+    "IVA": 20,
+    "RIS": 10,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 2100,
+    "IMP": 160,
+    "IVA": 40,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "inviato",
+    "valore": 2800,
+    "IMP": 220,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "consegnato",
+    "valore": 900,
+    "IMP": 60,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 3500,
+    "IMP": 300,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 1900,
+    "IMP": 150,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "pagato",
+    "valore": 2500,
+    "IMP": 200,
+    "IVA": 40,
+    "RIS": 10,
+    "RIM": 0
+  },
+  {
+    "status": "consegnato",
+    "valore": 1800,
+    "IMP": 150,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 3200,
+    "IMP": 260,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "scartato",
+    "valore": 1000,
+    "IMP": 80,
+    "IVA": 20,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "inviato",
+    "valore": 4000,
+    "IMP": 350,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 1500,
+    "IMP": 120,
+    "IVA": 20,
+    "RIS": 10,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 2100,
+    "IMP": 160,
+    "IVA": 40,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "inviato",
+    "valore": 2800,
+    "IMP": 220,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "consegnato",
+    "valore": 900,
+    "IMP": 60,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 3500,
+    "IMP": 300,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 1900,
+    "IMP": 150,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "inviato",
+    "valore": 2600,
+    "IMP": 200,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "pagato",
+    "valore": 1200,
+    "IMP": 100,
+    "IVA": 20,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 2500,
+    "IMP": 200,
+    "IVA": 40,
+    "RIS": 10,
+    "RIM": 0
+  },
+  {
+    "status": "consegnato",
+    "valore": 1800,
+    "IMP": 150,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 3200,
+    "IMP": 260,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "scartato",
+    "valore": 1000,
+    "IMP": 80,
+    "IVA": 20,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "inviato",
+    "valore": 4000,
+    "IMP": 350,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 1500,
+    "IMP": 120,
+    "IVA": 20,
+    "RIS": 10,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 2100,
+    "IMP": 160,
+    "IVA": 40,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "inviato",
+    "valore": 2800,
+    "IMP": 220,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "consegnato",
+    "valore": 900,
+    "IMP": 60,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 3500,
+    "IMP": 300,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 1900,
+    "IMP": 150,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "inviato",
+    "valore": 2600,
+    "IMP": 200,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "pagato",
+    "valore": 1200,
+    "IMP": 100,
+    "IVA": 20,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "inviato",
+    "valore": 3400,
+    "IMP": 280,
+    "IVA": 60,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "pagato",
+    "valore": 3100,
+    "IMP": 260,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "scartato",
+    "valore": 900,
+    "IMP": 70,
+    "IVA": 20,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 4200,
+    "IMP": 350,
+    "IVA": 70,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 2800,
+    "IMP": 230,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "consegnato",
+    "valore": 1700,
+    "IMP": 140,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 3400,
+    "IMP": 300,
+    "IVA": 40,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "inviato",
+    "valore": 3000,
+    "IMP": 260,
+    "IVA": 40,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "scartato",
+    "valore": 1200,
+    "IMP": 90,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "inviato",
+    "valore": 4200,
+    "IMP": 380,
+    "IVA": 40,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 2000,
+    "IMP": 160,
+    "IVA": 40,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 1700,
+    "IMP": 140,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "consegnato",
+    "valore": 2100,
+    "IMP": 180,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "inviato",
+    "valore": 1800,
+    "IMP": 150,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 3900,
+    "IMP": 350,
+    "IVA": 40,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "inviato",
+    "valore": 2300,
+    "IMP": 200,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 2500,
+    "IMP": 200,
+    "IVA": 40,
+    "RIS": 10,
+    "RIM": 0
+  },
+  {
+    "status": "consegnato",
+    "valore": 1800,
+    "IMP": 150,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 3200,
+    "IMP": 260,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "scartato",
+    "valore": 1000,
+    "IMP": 80,
+    "IVA": 20,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "inviato",
+    "valore": 4000,
+    "IMP": 350,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 1500,
+    "IMP": 120,
+    "IVA": 20,
+    "RIS": 10,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 2100,
+    "IMP": 160,
+    "IVA": 40,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "inviato",
+    "valore": 2800,
+    "IMP": 220,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "consegnato",
+    "valore": 900,
+    "IMP": 60,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 3500,
+    "IMP": 300,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 1900,
+    "IMP": 150,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "inviato",
+    "valore": 2600,
+    "IMP": 200,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "pagato",
+    "valore": 1200,
+    "IMP": 100,
+    "IVA": 20,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "inviato",
+    "valore": 3400,
+    "IMP": 280,
+    "IVA": 60,
+    "RIS": 0,
+    "RIM": 10
+  },
+  {
+    "status": "pagato",
+    "valore": 3100,
+    "IMP": 260,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "scartato",
+    "valore": 900,
+    "IMP": 70,
+    "IVA": 20,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 4200,
+    "IMP": 350,
+    "IVA": 70,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 2800,
+    "IMP": 230,
+    "IVA": 50,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "consegnato",
+    "valore": 1700,
+    "IMP": 140,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 3400,
+    "IMP": 300,
+    "IVA": 40,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "inviato",
+    "valore": 3000,
+    "IMP": 260,
+    "IVA": 40,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "scartato",
+    "valore": 1200,
+    "IMP": 90,
+    "IVA": 30,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "inviato",
+    "valore": 4200,
+    "IMP": 380,
+    "IVA": 40,
+    "RIS": 0,
+    "RIM": 0
+  },
+  {
+    "status": "pagato",
+    "valore": 2000,
+    "IMP": 160,
+    "IVA": 40,
+    "RIS": 0,
+    "RIM": 0
+  }
+]
