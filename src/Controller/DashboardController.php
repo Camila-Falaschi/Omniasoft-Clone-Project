@@ -9,8 +9,22 @@ class DashboardController extends Controller
 {
     public function default(Request $request, Response $response)
     {
-        $html = $this->ci->get('templating')->render('dashboard.twig');
-        $response->getBody()->write($html);
-        return $response;
+        $user_data = json_decode(file_get_contents(__DIR__ . '/../../data/user_data.json'), true);
+        $fatture_emesse = json_decode(file_get_contents(__DIR__ . '/../../data/fatture_emesse.json'), true);
+        $fatture_ricevute = json_decode(file_get_contents(__DIR__ . '/../../data/fatture_ricevute.json'), true);
+        $clienti = json_decode(file_get_contents(__DIR__ . '/../../data/clienti.json'), true);
+        $fornitori = json_decode(file_get_contents(__DIR__ . '/../../data/fornitori.json'), true);
+        $prodotti = json_decode(file_get_contents(__DIR__ . '/../../data/prodotti.json'), true);
+        $news = json_decode(file_get_contents(__DIR__ . '/../../data/news.json'), true);
+
+        return $this->render($response, 'dashboard.twig', [
+            'user_data' => $user_data,
+            'fatture_emesse' => $fatture_emesse,
+            'fatture_ricevute' => $fatture_ricevute,
+            'clienti' => count($clienti),
+            'fornitori' => count($fornitori),
+            'prodotti' => count($prodotti),
+            'news' => $news
+        ]);
     }
 }
