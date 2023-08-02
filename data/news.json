@@ -1,0 +1,60 @@
+{
+  "notizie": [
+    {
+      "titolo": "Lorem ipsum dolor sit amet",
+      "data_pubblicazione": "11-10-2021 08:30:20"
+    },
+    {
+      "titolo": "Consectetur adipiscing elit",
+      "data_pubblicazione": "12-10-2021 11:15:10"
+    },
+    {
+      "titolo": "Sed do eiusmod tempor incididunt",
+      "data_pubblicazione": "13-10-2021 14:45:35"
+    },
+    {
+      "titolo": "Ut labore et dolore magna aliqua",
+      "data_pubblicazione": "14-10-2021 17:20:55"
+    },
+    {
+      "titolo": "Enim ad minim veniam",
+      "data_pubblicazione": "15-10-2021 19:50:40"
+    },
+    {
+      "titolo": "Duis aute irure dolor in reprehenderit",
+      "data_pubblicazione": "16-10-2021 09:18:02"
+    },
+    {
+      "titolo": "Excepteur sint occaecat cupidatat non proident",
+      "data_pubblicazione": "17-10-2021 12:30:15"
+    },
+    {
+      "titolo": "Sunt in culpa qui officia deserunt mollit anim",
+      "data_pubblicazione": "18-10-2021 17:45:30"
+    },
+    {
+      "titolo": "Lorem ipsum dolor sit amet",
+      "data_pubblicazione": "19-10-2021 21:05:40"
+    },
+    {
+      "titolo": "Consectetur adipiscing elit",
+      "data_pubblicazione": "20-10-2021 14:20:55"
+    },
+    {
+      "titolo": "Sed do eiusmod tempor incididunt",
+      "data_pubblicazione": "21-10-2021 16:10:12"
+    },
+    {
+      "titolo": "Ut labore et dolore magna aliqua",
+      "data_pubblicazione": "22-10-2021 08:00:22"
+    },
+    {
+      "titolo": "Enim ad minim veniam",
+      "data_pubblicazione": "23-10-2021 19:15:18"
+    },
+    {
+      "titolo": "Quis nostrud exercitation ullamco",
+      "data_pubblicazione": "24-10-2021 10:45:30"
+    }
+  ]
+}

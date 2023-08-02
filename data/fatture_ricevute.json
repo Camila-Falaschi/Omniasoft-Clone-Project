@@ -1,0 +1,184 @@
+{
+  "fatture_ricevute": [
+    {
+      "status": "inviato",
+      "valore": 300,
+      "IMP": 250,
+      "IVA": 50
+    },
+    {
+      "status": "scartato",
+      "valore": 180,
+      "IMP": 150,
+      "IVA": 30
+    },
+    {
+      "status": "consegnato",
+      "valore": 200,
+      "IMP": 160,
+      "IVA": 40
+    },
+    {
+      "status": "pagato",
+      "valore": 250,
+      "IMP": 200,
+      "IVA": 50
+    },
+    {
+      "status": "inviato",
+      "valore": 300,
+      "IMP": 250,
+      "IVA": 50
+    },
+    {
+      "status": "scartato",
+      "valore": 180,
+      "IMP": 150,
+      "IVA": 30
+    },
+    {
+      "status": "consegnato",
+      "valore": 200,
+      "IMP": 160,
+      "IVA": 40
+    },
+    {
+      "status": "pagato",
+      "valore": 250,
+      "IMP": 200,
+      "IVA": 50
+    },
+    {
+      "status": "pagato",
+      "valore": 280,
+      "IMP": 230,
+      "IVA": 50
+    },
+    {
+      "status": "inviato",
+      "valore": 400,
+      "IMP": 350,
+      "IVA": 50
+    },
+    {
+      "status": "pagato",
+      "valore": 210,
+      "IMP": 160,
+      "IVA": 50
+    },
+    {
+      "status": "consegnato",
+      "valore": 190,
+      "IMP": 160,
+      "IVA": 30
+    },
+    {
+      "status": "inviato",
+      "valore": 330,
+      "IMP": 280,
+      "IVA": 50
+    },
+    {
+      "status": "pagato",
+      "valore": 150,
+      "IMP": 120,
+      "IVA": 30
+    },
+    {
+      "status": "pagato",
+      "valore": 200,
+      "IMP": 160,
+      "IVA": 40
+    },
+    {
+      "status": "scartato",
+      "valore": 280,
+      "IMP": 230,
+      "IVA": 50
+    },
+    {
+      "status": "inviato",
+      "valore": 300,
+      "IMP": 250,
+      "IVA": 50
+    },
+    {
+      "status": "scartato",
+      "valore": 180,
+      "IMP": 150,
+      "IVA": 30
+    },
+    {
+      "status": "consegnato",
+      "valore": 200,
+      "IMP": 160,
+      "IVA": 40
+    },
+    {
+      "status": "pagato",
+      "valore": 250,
+      "IMP": 200,
+      "IVA": 50
+    },
+    {
+      "status": "pagato",
+      "valore": 280,
+      "IMP": 230,
+      "IVA": 50
+    },
+    {
+      "status": "inviato",
+      "valore": 400,
+      "IMP": 350,
+      "IVA": 50
+    },
+    {
+      "status": "pagato",
+      "valore": 210,
+      "IMP": 160,
+      "IVA": 50
+    },
+    {
+      "status": "consegnato",
+      "valore": 190,
+      "IMP": 160,
+      "IVA": 30
+    },
+    {
+      "status": "inviato",
+      "valore": 330,
+      "IMP": 280,
+      "IVA": 50
+    },
+    {
+      "status": "pagato",
+      "valore": 150,
+      "IMP": 120,
+      "IVA": 30
+    },
+    {
+      "status": "pagato",
+      "valore": 200,
+      "IMP": 160,
+      "IVA": 40
+    },
+    {
+      "status": "scartato",
+      "valore": 280,
+      "IMP": 230,
+      "IVA": 50
+    },
+    {
+      "status": "inviato",
+      "valore": 340,
+      "IMP": 280,
+      "IVA": 60
+    },
+    {
+      "status": "consegnato",
+      "valore": 180,
+      "IMP": 150,
+      "IVA": 30
+    }
+  ]
+}
