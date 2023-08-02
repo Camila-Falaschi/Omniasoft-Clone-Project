@@ -17,7 +17,7 @@ body, main {
 }
 
 #main {
-  flex-flow: column;
+  flex-flow: wrap;
   height: calc(100% - 40px);
   position: absolute;
   right: 0;
