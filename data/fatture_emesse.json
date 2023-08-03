@@ -1,125 +1,15 @@
 [
   {
-    "status": "pagato",
-    "valore": 2500,
-    "IMP": 200,
-    "IVA": 40,
-    "RIS": 10,
-    "RIM": 0
-  },
-  {
-    "status": "consegnato",
-    "valore": 1800,
-    "IMP": 150,
-    "IVA": 30,
-    "RIS": 0,
-    "RIM": 0
-  },
-  {
-    "status": "pagato",
-    "valore": 3200,
-    "IMP": 260,
-    "IVA": 50,
-    "RIS": 0,
-    "RIM": 10
-  },
-  {
-    "status": "scartato",
-    "valore": 1000,
-    "IMP": 80,
-    "IVA": 20,
-    "RIS": 0,
-    "RIM": 0
-  },
-  {
-    "status": "inviato",
-    "valore": 4000,
-    "IMP": 350,
-    "IVA": 50,
-    "RIS": 0,
-    "RIM": 0
-  },
-  {
-    "status": "pagato",
-    "valore": 2500,
-    "IMP": 200,
-    "IVA": 40,
-    "RIS": 10,
-    "RIM": 0
-  },
-  {
-    "status": "consegnato",
-    "valore": 1800,
-    "IMP": 150,
-    "IVA": 30,
-    "RIS": 0,
-    "RIM": 0
-  },
-  {
-    "status": "pagato",
-    "valore": 3200,
-    "IMP": 260,
-    "IVA": 50,
-    "RIS": 0,
-    "RIM": 10
-  },
-  {
-    "status": "scartato",
-    "valore": 1000,
-    "IMP": 80,
-    "IVA": 20,
-    "RIS": 0,
-    "RIM": 0
-  },
-  {
-    "status": "inviato",
-    "valore": 4000,
-    "IMP": 350,
-    "IVA": 50,
-    "RIS": 0,
-    "RIM": 0
-  },
-  {
-    "status": "pagato",
-    "valore": 1500,
-    "IMP": 120,
-    "IVA": 20,
-    "RIS": 10,
-    "RIM": 0
-  },
-  {
-    "status": "pagato",
-    "valore": 2100,
-    "IMP": 160,
-    "IVA": 40,
-    "RIS": 0,
-    "RIM": 10
-  },
-  {
-    "status": "inviato",
-    "valore": 2800,
-    "IMP": 220,
-    "IVA": 50,
-    "RIS": 0,
-    "RIM": 10
-  },
-  {
-    "status": "consegnato",
-    "valore": 900,
-    "IMP": 60,
-    "IVA": 30,
-    "RIS": 0,
-    "RIM": 0
-  },
-  {
+    "date": "2023-08-03",
     "status": "pagato",
     "valore": 3500,
     "IMP": 300,
     "IVA": 50,
     "RIS": 0,
     "RIM": 0
-  },
+  },  
   {
+    "date": "2022-07-15",
     "status": "pagato",
     "valore": 1900,
     "IMP": 150,
@@ -128,6 +18,7 @@
     "RIM": 10
   },
   {
+    "date": "2021-12-04",
     "status": "pagato",
     "valore": 2500,
     "IMP": 200,
@@ -136,6 +27,7 @@
     "RIM": 0
   },
   {
+    "date": "2020-09-22",
     "status": "consegnato",
     "valore": 1800,
     "IMP": 150,
@@ -144,6 +36,7 @@
     "RIM": 0
   },
   {
+    "date": "2023-05-10",
     "status": "pagato",
     "valore": 3200,
     "IMP": 260,
@@ -152,6 +45,7 @@
     "RIM": 10
   },
   {
+    "date": "2021-11-05",
     "status": "scartato",
     "valore": 1000,
     "IMP": 80,
@@ -160,6 +54,7 @@
     "RIM": 0
   },
   {
+    "date": "2023-04-30",
     "status": "inviato",
     "valore": 4000,
     "IMP": 350,
@@ -168,6 +63,7 @@
     "RIM": 0
   },
   {
+    "date": "2022-02-18",
     "status": "pagato",
     "valore": 1500,
     "IMP": 120,
@@ -176,6 +72,7 @@
     "RIM": 0
   },
   {
+    "date": "2021-10-28",
     "status": "pagato",
     "valore": 2100,
     "IMP": 160,
@@ -184,6 +81,7 @@
     "RIM": 10
   },
   {
+    "date": "2022-03-14",
     "status": "inviato",
     "valore": 2800,
     "IMP": 220,
@@ -192,6 +90,7 @@
     "RIM": 10
   },
   {
+    "date": "2020-08-05",
     "status": "consegnato",
     "valore": 900,
     "IMP": 60,
@@ -200,6 +99,7 @@
     "RIM": 0
   },
   {
+    "date": "2023-01-19",
     "status": "pagato",
     "valore": 3500,
     "IMP": 300,
@@ -208,6 +108,7 @@
     "RIM": 0
   },
   {
+    "date": "2021-07-23",
     "status": "pagato",
     "valore": 1900,
     "IMP": 150,
@@ -216,6 +117,7 @@
     "RIM": 10
   },
   {
+    "date": "2023-02-08",
     "status": "inviato",
     "valore": 2600,
     "IMP": 200,
@@ -224,6 +126,7 @@
     "RIM": 10
   },
   {
+    "date": "2020-11-30",
     "status": "pagato",
     "valore": 1200,
     "IMP": 100,
@@ -232,6 +135,7 @@
     "RIM": 0
   },
   {
+    "date": "2022-06-01",
     "status": "pagato",
     "valore": 2500,
     "IMP": 200,
@@ -240,6 +144,7 @@
     "RIM": 0
   },
   {
+    "date": "2021-08-10",
     "status": "consegnato",
     "valore": 1800,
     "IMP": 150,
@@ -248,6 +153,7 @@
     "RIM": 0
   },
   {
+    "date": "2023-04-20",
     "status": "pagato",
     "valore": 3200,
     "IMP": 260,
@@ -256,6 +162,7 @@
     "RIM": 10
   },
   {
+    "date": "2020-09-05",
     "status": "scartato",
     "valore": 1000,
     "IMP": 80,
@@ -264,6 +171,7 @@
     "RIM": 0
   },
   {
+    "date": "2023-02-16",
     "status": "inviato",
     "valore": 4000,
     "IMP": 350,
@@ -272,14 +180,16 @@
     "RIM": 0
   },
   {
+    "date": "2021-03-28",
     "status": "pagato",
     "valore": 1500,
     "IMP": 120,
     "IVA": 20,
     "RIS": 10,
     "RIM": 0
-  },
+  }, 
   {
+    "date": "2022-07-15",
     "status": "pagato",
     "valore": 2100,
     "IMP": 160,
@@ -288,6 +198,7 @@
     "RIM": 10
   },
   {
+    "date": "2021-12-04",
     "status": "inviato",
     "valore": 2800,
     "IMP": 220,
@@ -296,6 +207,7 @@
     "RIM": 10
   },
   {
+    "date": "2020-09-22",
     "status": "consegnato",
     "valore": 900,
     "IMP": 60,
@@ -304,6 +216,7 @@
     "RIM": 0
   },
   {
+    "date": "2023-05-10",
     "status": "pagato",
     "valore": 3500,
     "IMP": 300,
@@ -312,6 +225,7 @@
     "RIM": 0
   },
   {
+    "date": "2021-11-05",
     "status": "pagato",
     "valore": 1900,
     "IMP": 150,
@@ -320,6 +234,7 @@
     "RIM": 10
   },
   {
+    "date": "2023-04-30",
     "status": "inviato",
     "valore": 2600,
     "IMP": 200,
@@ -328,6 +243,7 @@
     "RIM": 10
   },
   {
+    "date": "2022-02-18",
     "status": "pagato",
     "valore": 1200,
     "IMP": 100,
@@ -336,6 +252,7 @@
     "RIM": 0
   },
   {
+    "date": "2021-10-28",
     "status": "inviato",
     "valore": 3400,
     "IMP": 280,
@@ -344,6 +261,7 @@
     "RIM": 10
   },
   {
+    "date": "2022-03-14",
     "status": "pagato",
     "valore": 3100,
     "IMP": 260,
@@ -352,6 +270,7 @@
     "RIM": 0
   },
   {
+    "date": "2020-08-05",
     "status": "scartato",
     "valore": 900,
     "IMP": 70,
@@ -360,6 +279,7 @@
     "RIM": 0
   },
   {
+    "date": "2023-01-19",
     "status": "pagato",
     "valore": 4200,
     "IMP": 350,
@@ -368,6 +288,7 @@
     "RIM": 0
   },
   {
+    "date": "2021-07-23",
     "status": "pagato",
     "valore": 2800,
     "IMP": 230,
@@ -376,6 +297,7 @@
     "RIM": 0
   },
   {
+    "date": "2023-02-16",
     "status": "consegnato",
     "valore": 1700,
     "IMP": 140,
@@ -384,6 +306,7 @@
     "RIM": 0
   },
   {
+    "date": "2020-09-05",
     "status": "pagato",
     "valore": 3400,
     "IMP": 300,
@@ -392,6 +315,7 @@
     "RIM": 0
   },
   {
+    "date": "2023-04-20",
     "status": "inviato",
     "valore": 3000,
     "IMP": 260,
@@ -400,6 +324,7 @@
     "RIM": 0
   },
   {
+    "date": "2020-11-30",
     "status": "scartato",
     "valore": 1200,
     "IMP": 90,
@@ -408,6 +333,7 @@
     "RIM": 0
   },
   {
+    "date": "2022-06-01",
     "status": "inviato",
     "valore": 4200,
     "IMP": 380,
@@ -416,6 +342,7 @@
     "RIM": 0
   },
   {
+    "date": "2021-08-10",
     "status": "pagato",
     "valore": 2000,
     "IMP": 160,
@@ -424,6 +351,7 @@
     "RIM": 0
   },
   {
+    "date": "2023-02-28",
     "status": "pagato",
     "valore": 1700,
     "IMP": 140,
@@ -432,6 +360,7 @@
     "RIM": 0
   },
   {
+    "date": "2020-11-12",
     "status": "consegnato",
     "valore": 2100,
     "IMP": 180,
@@ -440,6 +369,7 @@
     "RIM": 0
   },
   {
+    "date": "2022-04-05",
     "status": "inviato",
     "valore": 1800,
     "IMP": 150,
@@ -448,6 +378,7 @@
     "RIM": 0
   },
   {
+    "date": "2021-09-08",
     "status": "pagato",
     "valore": 3900,
     "IMP": 350,
@@ -456,6 +387,7 @@
     "RIM": 0
   },
   {
+    "date": "2023-06-15",
     "status": "inviato",
     "valore": 2300,
     "IMP": 200,
@@ -464,14 +396,16 @@
     "RIM": 0
   },
   {
+    "date": "2021-05-25",
     "status": "pagato",
     "valore": 2500,
     "IMP": 200,
     "IVA": 40,
     "RIS": 10,
     "RIM": 0
-  },
+  },  
   {
+    "date": "2022-03-14",
     "status": "consegnato",
     "valore": 1800,
     "IMP": 150,
@@ -480,6 +414,7 @@
     "RIM": 0
   },
   {
+    "date": "2023-05-10",
     "status": "pagato",
     "valore": 3200,
     "IMP": 260,
@@ -488,6 +423,7 @@
     "RIM": 10
   },
   {
+    "date": "2020-11-05",
     "status": "scartato",
     "valore": 1000,
     "IMP": 80,
@@ -496,6 +432,7 @@
     "RIM": 0
   },
   {
+    "date": "2021-04-30",
     "status": "inviato",
     "valore": 4000,
     "IMP": 350,
@@ -504,6 +441,7 @@
     "RIM": 0
   },
   {
+    "date": "2022-02-18",
     "status": "pagato",
     "valore": 1500,
     "IMP": 120,
@@ -512,6 +450,7 @@
     "RIM": 0
   },
   {
+    "date": "2022-07-15",
     "status": "pagato",
     "valore": 2100,
     "IMP": 160,
@@ -520,6 +459,7 @@
     "RIM": 10
   },
   {
+    "date": "2021-12-04",
     "status": "inviato",
     "valore": 2800,
     "IMP": 220,
@@ -528,6 +468,7 @@
     "RIM": 10
   },
   {
+    "date": "2020-08-05",
     "status": "consegnato",
     "valore": 900,
     "IMP": 60,
@@ -536,6 +477,7 @@
     "RIM": 0
   },
   {
+    "date": "2023-01-19",
     "status": "pagato",
     "valore": 3500,
     "IMP": 300,
@@ -544,6 +486,7 @@
     "RIM": 0
   },
   {
+    "date": "2021-07-23",
     "status": "pagato",
     "valore": 1900,
     "IMP": 150,
@@ -552,6 +495,7 @@
     "RIM": 10
   },
   {
+    "date": "2023-02-16",
     "status": "inviato",
     "valore": 2600,
     "IMP": 200,
@@ -560,6 +504,7 @@
     "RIM": 10
   },
   {
+    "date": "2020-11-30",
     "status": "pagato",
     "valore": 1200,
     "IMP": 100,
@@ -568,6 +513,7 @@
     "RIM": 0
   },
   {
+    "date": "2023-04-20",
     "status": "inviato",
     "valore": 3400,
     "IMP": 280,
@@ -576,6 +522,7 @@
     "RIM": 10
   },
   {
+    "date": "2023-03-10",
     "status": "pagato",
     "valore": 3100,
     "IMP": 260,
@@ -584,6 +531,7 @@
     "RIM": 0
   },
   {
+    "date": "2020-10-15",
     "status": "scartato",
     "valore": 900,
     "IMP": 70,
@@ -592,6 +540,7 @@
     "RIM": 0
   },
   {
+    "date": "2023-02-05",
     "status": "pagato",
     "valore": 4200,
     "IMP": 350,
@@ -600,14 +549,16 @@
     "RIM": 0
   },
   {
+    "date": "2021-07-20",
     "status": "pagato",
     "valore": 2800,
     "IMP": 230,
     "IVA": 50,
     "RIS": 0,
     "RIM": 0
-  },
+  },  
   {
+    "date": "2023-02-28",
     "status": "consegnato",
     "valore": 1700,
     "IMP": 140,
@@ -616,6 +567,7 @@
     "RIM": 0
   },
   {
+    "date": "2022-06-01",
     "status": "pagato",
     "valore": 3400,
     "IMP": 300,
@@ -624,6 +576,7 @@
     "RIM": 0
   },
   {
+    "date": "2022-04-20",
     "status": "inviato",
     "valore": 3000,
     "IMP": 260,
@@ -632,6 +585,7 @@
     "RIM": 0
   },
   {
+    "date": "2020-11-12",
     "status": "scartato",
     "valore": 1200,
     "IMP": 90,
@@ -640,6 +594,7 @@
     "RIM": 0
   },
   {
+    "date": "2023-03-15",
     "status": "inviato",
     "valore": 4200,
     "IMP": 380,
@@ -648,11 +603,12 @@
     "RIM": 0
   },
   {
+    "date": "2021-08-10",
     "status": "pagato",
     "valore": 2000,
     "IMP": 160,
     "IVA": 40,
     "RIS": 0,
     "RIM": 0
-  }
+  }  
 ]
