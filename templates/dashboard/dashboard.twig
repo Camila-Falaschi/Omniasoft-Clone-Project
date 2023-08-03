@@ -6,6 +6,8 @@
     <link href="/css/dashboard.css" rel="stylesheet">
 {% endblock %}
 
+{% block additional_script %}{% endblock %}
+
 {% block main %}
     {% include 'dashboard/user_account_view.twig' %}
     <div>
@@ -15,5 +17,8 @@
     {% include 'dashboard/fatture_emesse.twig' %}
     {% include 'dashboard/fatture_ricevute.twig' %}
     {% include 'dashboard/assets_view.twig' %}
+    {# {% include 'dashboard/chart_line.twig' %} #}
     {% include 'dashboard/news.twig' %}
 {% endblock %}
+
+{% block additional_script_bottom %}{% endblock %}

@@ -1,7 +1,7 @@
 [
   {
     "date": "2023-06-20",
-    "status": "inviato",
+    "status": "pagato",
     "valore": 300,
     "IMP": 250,
     "IVA": 50
@@ -15,7 +15,7 @@
   },
   {
     "date": "2023-09-10",
-    "status": "consegnato",
+    "status": "scartato",
     "valore": 200,
     "IMP": 160,
     "IVA": 40
@@ -29,7 +29,7 @@
   },
   {
     "date": "2022-02-28",
-    "status": "inviato",
+    "status": "pagato",
     "valore": 300,
     "IMP": 250,
     "IVA": 50
@@ -43,7 +43,7 @@
   },
   {
     "date": "2022-09-20",
-    "status": "consegnato",
+    "status": "scartato",
     "valore": 200,
     "IMP": 160,
     "IVA": 40
@@ -64,7 +64,7 @@
   },
   {
     "date": "2023-03-20",
-    "status": "inviato",
+    "status": "pagato",
     "valore": 400,
     "IMP": 350,
     "IVA": 50
@@ -78,14 +78,14 @@
   },
   {
     "date": "2022-11-05",
-    "status": "consegnato",
+    "status": "scartato",
     "valore": 190,
     "IMP": 160,
     "IVA": 30
   },
   {
     "date": "2023-08-15",
-    "status": "inviato",
+    "status": "pagato",
     "valore": 330,
     "IMP": 280,
     "IVA": 50
@@ -113,7 +113,7 @@
   },
   {
     "date": "2023-11-15",
-    "status": "inviato",
+    "status": "pagato",
     "valore": 300,
     "IMP": 250,
     "IVA": 50
@@ -127,7 +127,7 @@
   },
   {
     "date": "2023-04-05",
-    "status": "consegnato",
+    "status": "scartato",
     "valore": 200,
     "IMP": 160,
     "IVA": 40
