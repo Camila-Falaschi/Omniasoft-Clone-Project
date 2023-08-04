@@ -6,14 +6,11 @@
     <link href="/css/dashboard.css" rel="stylesheet">
 {% endblock %}
 
-{% block additional_script %}{% endblock %}
+{% block small_header %}
+    {% include 'dashboard/user_account_view.twig' %}
+{% endblock %}
 
 {% block main %}
-    {% include 'dashboard/user_account_view.twig' %}
-    <div>
-        <i class="bi bi-exclamation-circle-fill"></i>
-        <p> Si sta utilizzando una versione di prova, alcune funzioni potrebbero essere limitate</p>
-    </div>
     {% include 'dashboard/fatture_emesse.twig' %}
     {% include 'dashboard/fatture_ricevute.twig' %}
     {% include 'dashboard/assets_view.twig' %}

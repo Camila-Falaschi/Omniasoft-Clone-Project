@@ -16,7 +16,6 @@
 
         <!-- Scripts -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        {% block additional_script %}{% endblock %}
         <script src="/js/main.js"></script>
     </head>
     <body class='d-flex flex-column'>
@@ -25,6 +24,13 @@
             {% include 'components/aside.twig' %}
             <section class='d-flex flex-column'>
                 <main id='main' class='flex-center'>
+                    <div>
+                        {% block small_header %}{% endblock %}
+                    </div>
+                    <div>
+                        <i class="bi bi-exclamation-circle-fill"></i>
+                        <p> Si sta utilizzando una versione di prova, alcune funzioni potrebbero essere limitate</p>
+                    </div>
                     {% block main %}{% endblock %}
                 </main>
                 {% include 'components/footer.twig' %}
