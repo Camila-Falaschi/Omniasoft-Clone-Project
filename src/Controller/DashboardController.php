@@ -34,6 +34,7 @@ class DashboardController extends Controller
 
         $twig->addFunction(new \Twig\TwigFunction('filter_by_status', 'filter_by_status'));
         $twig->addFunction(new \Twig\TwigFunction('calculate_total_price', 'calculate_total_price'));
+        $twig->addFunction(new \Twig\TwigFunction('filtered_data', 'filtered_data'));
 
         $chartData = $this->getChartData();
 
