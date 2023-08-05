@@ -6,22 +6,21 @@
   padding: 0;
 }
 
-body, main {
-  background-color: #F1F3F6;
-}
-
 .flex-center {
   align-items: center;
   display: flex;
   justify-content: center;
 }
 
-#main {
-  flex-flow: wrap;
-  height: calc(100% - 40px);
-  padding-bottom: 56px;
-  position: absolute;
+#main-section {
   right: 0;
-  top: 56px;
+  top: 62px;
+  position: absolute;
   width: calc(100% - 180px);
 }
+
+#main {
+  flex-flow: wrap;
+  padding-bottom: 56px;
+}
+

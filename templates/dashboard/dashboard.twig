@@ -10,7 +10,7 @@
     {% include 'dashboard/user_account_view.twig' %}
 {% endblock %}
 
-{% block main %}
+{% block main_block %}
     {% include 'dashboard/fatture_emesse.twig' %}
     {% include 'dashboard/fatture_ricevute.twig' %}
     {% include 'dashboard/assets_view.twig' %}
@@ -18,5 +18,3 @@
     {# {% include 'dashboard/chart_line.twig' %} #}
     {% include 'dashboard/news.twig' %}
 {% endblock %}
-
-{% block additional_script_bottom %}{% endblock %}
