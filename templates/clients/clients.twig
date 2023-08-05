@@ -1,0 +1,29 @@
+{% extends "base.twig" %}
+
+{% block title %}Clienti - Fatturare{% endblock %}
+
+{% block additional_style %}
+    <link href="/css/clienti.css" rel="stylesheet">
+{% endblock %}
+
+{% block small_header %}
+    <h2>Clienti</h2>
+{% endblock %}
+
+{% block main %}
+    <button type="button"><i class="bi bi-plus"></i></button>
+    <div>
+        <select id="clients_length">
+            <option value="15">15</option>
+            <option value="30">30</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+        </select>
+        <input type="search" placeholder="Cerca...">
+    </div>
+    {% include 'clients/clients_table.twig' %}
+    <div>
+        <div>Pagina {{ current_page }} di {{ total_pages }}</div>
+        {% include 'clients/pagination.twig' %}
+    </div>
+{% endblock %}

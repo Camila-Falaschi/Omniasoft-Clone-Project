@@ -19,6 +19,6 @@ AppFactory::setContainer($container);
 $app = AppFactory::create();
 
 $app->get('/', '\App\Controller\DashboardController:default');
-// $app->get('/clients', '\src\controller\ClientController:client');
+$app->get('/clients', '\App\controller\ClientController:clients');
 
 $app->run();

@@ -1,0 +1,35 @@
+<table>
+    <thead>
+        <tr>
+            <th>Cliente</th>
+            <th>Telefono</th>
+            <th>Codice Fiscale</th>
+            <th>Email</th>
+            <th>
+                Modificato
+                <i class="bi bi-arrow-down-up"></i>
+                <i class="bi bi-sort-down"></i>
+                <i class="bi bi-sort-down-alt"></i>
+            </th>
+            <th>Azioni</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for client in clients_data %}
+            <tr>{{ client.nome }}</tr>
+            <tr>{{ client.telefono }}</tr>
+            <tr>{{ client.codice_fiscale }}</tr>
+            <tr>{{ client.email }}</tr>
+            <tr>{{ client.data_modifica }}</tr>
+            <tr>
+                <button type='button'><i class="bi bi-eye-fill"></i></button>
+                <button type='button'><i class="bi bi-x-lg"></i></button>
+                <select id="filter-select">
+                    <i class="bi bi-gear-fill"></i>
+                    <option value="nuova_fattura">Nuova fattura</option>
+                    <option value="storico_fatture">Storico fatture</option>
+                </select>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
