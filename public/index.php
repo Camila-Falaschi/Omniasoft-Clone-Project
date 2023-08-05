@@ -19,8 +19,8 @@ AppFactory::setContainer($container);
 $app = AppFactory::create();
 
 $app->get('/', '\App\Controller\DashboardController:default');
-$app->get('/clients', '\App\controller\ClientController:clients');
-$app->get('/clients/new', '\App\controller\ClientController:clients');
-$app->get('/clients/{id:[0-9]+}', '\App\controller\ClientController:clients');
+// $app->get('/clients', '\App\controller\ClientController:clients');
+// $app->get('/clients/new', '\App\controller\ClientController:new_client');
+// $app->get('/clients/{id:[0-9]+}', '\App\controller\ClientController:client_details');
 
 $app->run();
