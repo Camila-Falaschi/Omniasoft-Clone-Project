@@ -23,13 +23,13 @@
         <main class='d-flex flex-row'>
             {% include 'components/aside.twig' %}
             <section id='main-section' class='d-flex flex-column'>
-                <div id='main' class='flex-center'>
-                    <div>
+                <div id='main' class='d-flex'>
+                    <div id='small-header' class='d-flex'>
                         {% block small_header %}{% endblock %}
                     </div>
-                    <div>
-                        <i class="bi bi-exclamation-circle-fill"></i>
-                        <p> Si sta utilizzando una versione di prova, alcune funzioni potrebbero essere limitate</p>
+                    <div id='warning-test-environment'>
+                        <i style='color: #8a6d3b;' class="bi bi-exclamation-circle-fill"></i>
+                        <p style='color: #8a6d3b;'> Si sta utilizzando una versione di prova, alcune funzioni potrebbero essere limitate</p>
                     </div>
                     {% block main_block %}{% endblock %}
                 </div>

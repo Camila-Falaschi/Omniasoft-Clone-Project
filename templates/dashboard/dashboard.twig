@@ -11,10 +11,14 @@
 {% endblock %}
 
 {% block main_block %}
-    {% include 'dashboard/fatture_emesse.twig' %}
-    {% include 'dashboard/fatture_ricevute.twig' %}
-    {% include 'dashboard/assets_view.twig' %}
-    {% include 'dashboard/chart_pie.twig' %}
-    {# {% include 'dashboard/chart_line.twig' %} #}
-    {% include 'dashboard/news.twig' %}
+    <div id='main-block' class='d-flex'>
+        {% include 'dashboard/fatture_emesse.twig' %}
+        <div id='middle' class='d-flex flex-column'>
+            {% include 'dashboard/fatture_ricevute.twig' %}
+            {% include 'dashboard/assets_view.twig' %}
+        </div>
+        {% include 'dashboard/chart_pie.twig' %}
+        {# {% include 'dashboard/chart_line.twig' %} #}
+        {% include 'dashboard/news.twig' %}
+    </div>
 {% endblock %}

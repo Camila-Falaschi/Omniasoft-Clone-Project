@@ -1,11 +1,62 @@
-{% set summary_data = filtered_data(fatture_emesse, fatture_ricevute) %}
-
-
-<div>
-    <div>
-        <h4>Entrate / Uscite</h4>
-        <di>
-            <div>
+<div id='chart-pie' class='d-flex cards'>
+    <div class='card-footer-div'>
+      <p>Statistiche entrate/uscite</p>
+    </div>
+    <div id='chart-pie-overview' class='flex-justify-between p-4'>
+        <div>
+            <table id='table-chart-pie'>
+                <thead>
+                    <th colspan='2'>Emesso</th>
+                    <th colspan='2'>Ricevuto</th>
+                    <th colspan='2'>Saldo</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan='2' class='text-success price'>€ {{ summary_data.emesso.total }}</td>
+                        <td colspan='2' class='text-info price'>€ {{ summary_data.ricevuto.total }}</td>
+                        <td colspan='2' style='color: #9b59b6;' class='price'>€ {{ summary_data.saldo.total }}</td>
+                    </tr>
+                    <tr>
+                        <td>IMP:</td>
+                        <td>€ {{ summary_data.emesso.imp }}</td>
+                        <td>IMP:</td>
+                        <td>€ {{ summary_data.ricevuto.imp }}</td>
+                        <td>IMP:</td>
+                        <td>€ {{ summary_data.saldo.imp }}</td>
+                    </tr>
+                    <tr>
+                        <td>IVA:</td>
+                        <td>€ {{ summary_data.emesso.iva }}</td>
+                        <td>IVA:</td>
+                        <td>€ {{ summary_data.ricevuto.iva }}</td>
+                        <td>IVA:</td>
+                        <td>€ {{ summary_data.saldo.iva }}</td>
+                    </tr>
+                    <tr>
+                        <td>RIS:</td>
+                        <td class='text-success'>€ {{ summary_data.emesso.ris }}</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>RIM:</td>
+                        <td class='text-danger'>€ {{ summary_data.emesso.rim }}</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        {# <div>
+            <canvas id="invoicesPieChart"></canvas>
+        </div> #}
+        <div id='chart-pie-title' class='flex-justify-between'>
+            <h4 style='font-size: 17px;'>Entrate / Uscite</h4>
+            <div id='select-filter-div' class='d-flex'>
                 <i class="bi bi-calendar3"></i>
                 <select id="filter-select">
                     <option value="anno">Anno</option>
@@ -19,61 +70,5 @@
                 </select>
             </div>
         </div>
-    </div>
-    <div>
-        <canvas id="invoicesPieChart"></canvas>
-    </div>
-    <div>
-        <table>
-            <thead>
-                <th>Emesso</th>
-                <th>Ricevuto</th>
-                <th>Saldo</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>€ {{ summary_data.emesso.total }}</td>
-                    <td>€ {{ summary_data.ricevuto.total }}</td>
-                    <td>€ {{ summary_data.saldo.total }}</td>
-                </tr>
-                <tr>
-                    <td>IMP:</td>
-                    <td>€ {{ summary_data.emesso.imp }}</td>
-                    <td>IMP:</td>
-                    <td>€ {{ summary_data.ricevuto.imp }}</td>
-                    <td>IMP:</td>
-                    <td>€ {{ summary_data.saldo.imp }}</td>
-                </tr>
-                <tr>
-                    <td>IVA:</td>
-                    <td>€ {{ summary_data.emesso.iva }}</td>
-                    <td>IVA:</td>
-                    <td>€ {{ summary_data.ricevuto.iva }}</td>
-                    <td>IVA:</td>
-                    <td>€ {{ summary_data.saldo.iva }}</td>
-                </tr>
-                <tr>
-                    <td>RIS:</td>
-                    <td>€ {{ summary_data.emesso.ris }}</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>RIM:</td>
-                    <td>€ {{ summary_data.emesso.rim }}</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div>
-      <p>
-        Statistiche entrate/uscite
-      </p>
     </div>
 </div>

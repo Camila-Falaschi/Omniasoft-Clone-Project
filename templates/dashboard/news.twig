@@ -1,14 +1,16 @@
-<div>
-    <div>
-        <h3>News</h3>
-        <p>Ultime novità</p>
+<div id='news-card' class='cards p-4'>
+    <div class='flex-justify-between'>
+        <div>
+            <h3 style='font-size: 15px;' class='fw-semibold'>News</h3>
+            <p style='font-size: 11px;'>Ultime novità</p>
+        </div>
+        <i style='font-size: 52px;' class="bi bi-newspaper"></i>
     </div>
-    <i class="bi bi-newspaper"></i>
-    <div>
+    <div id='news-list'>
         {% for new in news %}
             <div>
                 <h4>{{ new.titolo }}</h4>
-                <p><i class="bi bi-clock"></i> Pubblicato {{ new.data_pubblicazione }}</p>
+                <p style='font-size: 11px;'><i class="bi bi-clock"></i> Pubblicato {{ new.data_pubblicazione }}</p>
             </div>
         {% endfor %}
     </div>

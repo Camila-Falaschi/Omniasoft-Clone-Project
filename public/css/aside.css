@@ -14,8 +14,10 @@
 }
 
 #aside.hide-aside {
+  display: "none";
   position: relative;
   transform: translateX(-100%);
+  visibility: "hidden";
 }
 
 .aside-itens {

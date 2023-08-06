@@ -42,6 +42,7 @@ class DashboardController extends Controller
             'user_data' => $user_data,
             'fatture_emesse' => $fatture_emesse,
             'fatture_ricevute' => $fatture_ricevute,
+            'summary_data' => filtered_data($fatture_emesse, $fatture_ricevute),
             'clienti' => count($clienti),
             'fornitori' => count($fornitori),
             'prodotti' => count($prodotti),

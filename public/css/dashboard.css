@@ -1,0 +1,167 @@
+#dashboard-title{
+    align-items: flex-start;
+    display: flex;
+    flex-flow: column;
+    font-size: 13px;
+}
+
+#dashboard-title h2{
+    font-size: 30px;
+    font-weight: 200;
+}
+
+#dashboard-overview{
+    align-items: flex-end;
+    display: flex;
+    flex-flow: column;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#main-block {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cards {
+    background-color:#FFFFFF;
+    border: 1px solid #e4e5e7;
+    display: flex;
+    flex-direction: column;
+    height: 438px;
+}
+
+#fatture-emesse {
+    height: 438px;
+    min-width: 31%;
+}
+
+#middle {
+    justify-content: space-between;
+    gap: 15px;
+    height: 438px;
+    min-width: 31%;
+}
+
+.fatture-overview {
+    font-size: 13px;
+}
+
+.fatture-overview h3 {
+    font-size: 24px;
+}
+
+#fatture-ricevute {
+    height: 275px;
+}
+
+.fatture-title h1 {
+    font-size: 39px;
+    color: #62cb31;
+}
+
+#assets-view {
+    font-weight: 600;
+    height: 140px;
+}
+
+#assets-view tr {
+    align-items: center;
+    border-bottom: 1px solid #e4e5e7;
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+}
+
+#assets-view tr:last-child {
+    border-bottom: none;
+}
+
+#chart-pie {
+    flex-flow: column-reverse;
+    height: 438px;
+    min-width: 31%;
+}
+
+#chart-pie-overview {
+    flex-flow: column-reverse;
+    height: 400px;
+}
+
+#table-chart-pie {
+    font-size: 13px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table-chart-pie th,
+#table-chart-pie td {
+    padding: 2px 0;
+    text-align: left;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#select-filter-div {
+    align-items: center;
+    border: 1px solid #e4e5e7;
+    gap: 5px;
+    padding: 5px;
+}
+
+#filter-select{
+    background-color: #ffffff;
+    border: none;
+}
+
+.card-footer-div {
+    background-color: #f7f9fa;
+    border-top: 1px solid #e4e5e7;
+    height: 38px;
+    font-size: 12px;
+    padding: 10px 15px;
+}
+
+#news-card {
+    height: 500px;
+    width: 48%;
+}
+
+#news-list {
+    max-height: 400px;
+    min-width: 30%;
+    overflow-y: auto;
+}
+
+#news-list div {
+    border-bottom: 1px solid #e4e5e7;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+#news-list h4 {
+    color: #34495e;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media (max-width: 1390px) {
+    #fatture-emesse, #middle {
+      width: 48%;
+    }
+    #chart-pie, #news-card {
+      width: 100%;
+    }
+}
+  
+@media (max-width: 992px) {
+    #fatture-emesse, #middle, #chart-pie, #news-card {
+      width: 100%;
+    }
+}

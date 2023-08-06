@@ -4,32 +4,36 @@
 {% set fatture_scartati = filter_by_status(fatture_ricevute, 'scartato') %}
 {% set total_scartato = calculate_total_price(fatture_ricevute, 'scartato') %}
 
-<div>
-    <div>
-        <h3>FATTURE RICEVUTE</h3>
-        <h1>{{ fatture_length }}</h1>
-    </div>
-    <div>
-        <h3 class="text-success">{{ fatture_pagati|length }}</h3>
-        <div>
-            <p>Pagati</p>
-            <div>
-                <span class="text-info">€ {{ total_pagato }}</span>
-                |
-                {{ (fatture_pagati|length / fatture_length * 100)|number_format(1) }}%
+<div id='fatture-ricevute' class='d-flex cards'>
+    <div style='height: 237px;' class='d-flex p-4 flex-column'>
+        <div class='flex-justify-between fatture-title'>
+            <h3 style='font-size: 17px;'>FATTURE RICEVUTE</h3>
+            <h1>{{ fatture_length }}</h1>
+        </div>
+        <div class='fatture-overview'>
+            <div style='border-bottom: 1px solid #e4e5e7;' class='d-flex flex-column'>
+                <h3 class="text-success">{{ fatture_pagati|length }}</h3>
+                <div class='flex-justify-between'>
+                    <p>Pagati</p>
+                    <div>
+                        <span class="text-info">€ {{ total_pagato }}</span>
+                        |
+                        {{ (fatture_pagati|length / fatture_length * 100)|number_format(1) }}%
+                    </div>
+                </div>
+            </div>
+            <div class='d-flex flex-column'>
+                <h3>{{ fatture_scartati|length }}</h3>
+                <div class='flex-justify-between'>
+                    <p>Scartati</p>
+                    <div>
+                        <span class="text-info">€ {{ total_scartato }}</span>
+                        |
+                        {{ (fatture_scartati|length / fatture_length * 100)|number_format(1) }}%
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div>
-        <h3>{{ fatture_scartati|length }}</h3>
-        <div>
-            <p>Scartati</p>
-            <div>
-                <span class="text-info">€ {{ total_scartato }}</span>
-                |
-                {{ (fatture_scartati|length / fatture_length * 100)|number_format(1) }}%
-            </div>
-        </div>
-    </div>
-    <div>Resoconto fatture emesse</div>
+    <div class='card-footer-div'>Resoconto fatture emesse</div>
 </div>
