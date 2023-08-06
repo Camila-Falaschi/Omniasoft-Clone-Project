@@ -1,4 +1,4 @@
-<table>
+<table id='table-clients-list' class='table table-bordered table-striped'>
     <thead>
         <tr>
             <th>Cliente</th>
@@ -16,19 +16,22 @@
     </thead>
     <tbody>
         {% for client in clients_data %}
-            <tr>{{ client.nome }}</tr>
-            <tr>{{ client.telefono }}</tr>
-            <tr>{{ client.codice_fiscale }}</tr>
-            <tr>{{ client.email }}</tr>
-            <tr>{{ client.data_modifica }}</tr>
             <tr>
-                <button type='button'><i class="bi bi-eye-fill"></i></button>
-                <button type='button'><i class="bi bi-x-lg"></i></button>
-                <select id="filter-select">
-                    <i class="bi bi-gear-fill"></i>
-                    <option value="nuova_fattura">Nuova fattura</option>
-                    <option value="storico_fatture">Storico fatture</option>
-                </select>
+                <td>{{ client.nome }}</td>
+                <td>{{ client.telefono }}</td>
+                <td>{{ client.codice_fiscale }}</td>
+                <td>{{ client.email }}</td>
+                <td style='text-align: center;'>{{ client.data_modifica }}</td>
+                <td style='text-align: center;'>
+                    <button type='button' class='btn btn-info btn-xs'><i class="bi bi-eye-fill text-white"></i></button>
+                    <button type='button' class='btn btn-danger btn-xs'><i class="bi bi-x-lg text-white"></i></button>
+                    <button type='button' class='btn btn-primary btn-xs'><i class="bi bi-gear-fill text-white"></i></button>
+                    {# <select id="filter-select">
+                        <option value=""></option>
+                        <option value="nuova_fattura">Nuova fattura</option>
+                        <option value="storico_fatture">Storico fatture</option>
+                    </select> #}
+                </td>
             </tr>
         {% endfor %}
     </tbody>

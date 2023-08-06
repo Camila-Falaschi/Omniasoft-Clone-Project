@@ -10,20 +10,27 @@
     <h2>Clienti</h2>
 {% endblock %}
 
-{% block main %}
-    <button type="button"><i class="bi bi-plus"></i></button>
-    <div>
-        <select id="clients_length">
-            <option value="15">15</option>
-            <option value="30">30</option>
-            <option value="50">50</option>
-            <option value="100">100</option>
-        </select>
-        <input type="search" placeholder="Cerca...">
-    </div>
-    {% include 'clients/clients_table.twig' %}
-    <div>
-        <div>Pagina {{ current_page }} di {{ total_pages }}</div>
-        {% include 'clients/pagination.twig' %}
+{% block main_block %}
+    <div id='main-block-clients' class='d-flex flex-column'>
+        <button type="button" id='new-cliente-button' class='btn'>
+            <i class="bi bi-plus text-white"></i>
+            Nuovo Cliente
+        </button>
+        <div class='flex-justify-between'>
+            <select id='list-length' class="form-control input-list-filter">
+                <option value="15">15</option>
+                <option value="30">30</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+            </select>
+            <input type="text" id='search-input' class='form-control input-list-filter' placeholder="Cerca...">
+        </div>
+        <div>
+            {% include 'clients/clients_table.twig' %}
+        </div>
+        <div class='flex-justify-between'>
+            <div style='font-size: 13px;'>Pagina 1 di 1</div>
+            {% include 'clients/pagination.twig' %}
+        </div>
     </div>
 {% endblock %}
