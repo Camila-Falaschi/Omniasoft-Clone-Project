@@ -5,15 +5,12 @@ $(document).ready(function() {
     });
 });
 
-$(document).ready(function () {
-    $.ajax({
-        url: "/",
-        method: "GET",
-        dataType: "json",
-        success: function (response) {
-            // Substitua os dados do placeholder e renderize o componente
-            $("#dados-placeholder").text(response.dados);
-            $("#componente-container").append('<p>' + response.dados + '</p>');
-        }
+$(document).ready(function() {
+    $("#dashboard-button").click(function() {
+        window.location.href = "/";
+    });
+
+    $("#clienti-button").click(function() {
+        window.location.href = "/clients";
     });
 });
