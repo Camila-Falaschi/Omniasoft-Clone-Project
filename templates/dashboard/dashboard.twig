@@ -1,0 +1,24 @@
+{% extends "base.twig" %}
+
+{% block title %}Dashboard - Fatturare{% endblock %}
+
+{% block additional_style %}
+    <link href="/css/dashboard.css" rel="stylesheet">
+{% endblock %}
+
+{% block small_header %}
+    {% include 'dashboard/user_account_view.twig' %}
+{% endblock %}
+
+{% block main_block %}
+    <div id='main-block' class='d-flex'>
+        {% include 'dashboard/fatture_emesse.twig' %}
+        <div id='middle' class='d-flex flex-column'>
+            {% include 'dashboard/fatture_ricevute.twig' %}
+            {% include 'dashboard/assets_view.twig' %}
+        </div>
+        {% include 'dashboard/chart_pie.twig' %}
+        {# {% include 'dashboard/chart_line.twig' %} #}
+        {% include 'dashboard/news.twig' %}
+    </div>
+{% endblock %}

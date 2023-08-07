@@ -1,0 +1,67 @@
+#main-block-clients {
+    gap: 15px;
+    width: 100%;
+}
+
+#new-cliente-button {
+    align-self: center;
+    background-color: #62cb31;
+    border-color: #62cb31;
+    color: #ffffff;
+}
+
+#list-length {
+    font-size: 12px;
+    width: 75px;
+}
+
+#search-input {
+    font-size: 12px;
+    width: 172px;
+}
+
+.input-list-filter {
+    border-color: #ffffff;
+    height: 30px;
+    padding: 5px 10px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.pagination li {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    font-size: 13px;
+    padding: 6px 12px;
+}
+
+#table-clients-list {
+    font-size: 13px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table-clients-list th {
+    color: #6a6c6f!important;
+    text-transform: uppercase;
+}
+
+#table-clients-list td {
+    color: #6a6c6f!important;
+    vertical-align: middle; 
+}
+
+.btn-info {
+    background-color: #3498db!important;
+    border-color: #3498db!important;
+}
+
+.btn-danger {
+    background-color: #e74c3c!important;
+    border-color: #e74c3c!important;
+}
+
+.btn-primary {
+    background-color: #34495e!important;
+    border-color: #34495e!important;
+}

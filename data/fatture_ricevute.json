@@ -1,0 +1,135 @@
+[
+  {
+    "date": "2023-06-20",
+    "status": "pagato",
+    "valore": 300,
+    "IMP": 250,
+    "IVA": 50
+  },
+  {
+    "date": "2022-04-15",
+    "status": "scartato",
+    "valore": 180,
+    "IMP": 150,
+    "IVA": 30
+  },
+  {
+    "date": "2023-06-15",
+    "status": "scartato",
+    "valore": 200,
+    "IMP": 160,
+    "IVA": 40
+  },
+  {
+    "date": "2023-06-15",
+    "status": "pagato",
+    "valore": 250,
+    "IMP": 200,
+    "IVA": 50
+  },
+  {
+    "date": "2023-02-28",
+    "status": "pagato",
+    "valore": 300,
+    "IMP": 250,
+    "IVA": 50
+  },
+  {
+    "date": "2023-06-15",
+    "status": "scartato",
+    "valore": 180,
+    "IMP": 150,
+    "IVA": 30
+  },
+  {
+    "date": "2023-06-15",
+    "status": "scartato",
+    "valore": 200,
+    "IMP": 160,
+    "IVA": 40
+  },
+  {
+    "date": "2023-01-15",
+    "status": "pagato",
+    "valore": 250,
+    "IMP": 200,
+    "IVA": 50
+  },
+  {
+    "date": "2023-02-10",
+    "status": "pagato",
+    "valore": 280,
+    "IMP": 230,
+    "IVA": 50
+  },
+  {
+    "date": "2023-03-20",
+    "status": "pagato",
+    "valore": 400,
+    "IMP": 350,
+    "IVA": 50
+  },
+  {
+    "date": "2023-06-15",
+    "status": "pagato",
+    "valore": 210,
+    "IMP": 160,
+    "IVA": 50
+  },
+  {
+    "date": "2023-06-15",
+    "status": "scartato",
+    "valore": 190,
+    "IMP": 160,
+    "IVA": 30
+  },
+  {
+    "date": "2023-06-15",
+    "status": "pagato",
+    "valore": 330,
+    "IMP": 280,
+    "IVA": 50
+  },
+  {
+    "date": "2023-01-25",
+    "status": "pagato",
+    "valore": 150,
+    "IMP": 120,
+    "IVA": 30
+  },
+  {
+    "date": "2023-05-01",
+    "status": "pagato",
+    "valore": 200,
+    "IMP": 160,
+    "IVA": 40
+  },  
+  {
+    "date": "2023-06-10",
+    "status": "scartato",
+    "valore": 280,
+    "IMP": 230,
+    "IVA": 50
+  },
+  {
+    "date": "2023-06-15",
+    "status": "pagato",
+    "valore": 300,
+    "IMP": 250,
+    "IVA": 50
+  },
+  {
+    "date": "2023-01-30",
+    "status": "scartato",
+    "valore": 180,
+    "IMP": 150,
+    "IVA": 30
+  },
+  {
+    "date": "2023-04-05",
+    "status": "scartato",
+    "valore": 200,
+    "IMP": 160,
+    "IVA": 40
+  }  
+]

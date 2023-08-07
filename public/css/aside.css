@@ -1,0 +1,65 @@
+#aside {
+  background-color: #ffffff;
+  border-right: 1px solid #e4e5e7;
+  bottom: 0;
+  float: left;
+  font-size: 13px;
+  left: 0;
+  padding: 0;
+  position: fixed;
+  top: 56px;
+  transform: translateX(0);
+  transition: transform 0.3s ease;
+  width: 180px;
+}
+
+#aside.hide-aside {
+  display: "none";
+  position: relative;
+  transform: translateX(-100%);
+  visibility: "hidden";
+}
+
+.aside-itens {
+  border-bottom: 1px solid #e4e5e7;
+  font-weight: 600;
+  padding: 14px;
+  width: 100%;
+}
+
+.li-item {
+  align-items: center;
+  background-color: #f7f9fa;
+  gap: 3px;
+}
+
+.li-item:hover {
+  background-color: #ffffff;
+}
+
+.li-item div {
+  background-color: #e4e5e7;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.logo-omniasoft {
+  flex-direction: column;
+  gap: 15px;
+  line-height: 1.2;
+  padding: 20px;
+}
+
+.logo-omniasoft div {
+  gap: 3px;
+}
+
+.logo-omniasoft span {
+  font-weight: 700;
+}
+
+.logo-omniasoft small {
+  font-size: 10px;
+  font-weight: 100;
+}
+
