@@ -54,6 +54,7 @@
 
 #form label {
     gap: 5px;
+    font-weight: 600;
     justify-content: flex-end;
     width: 180px;
 }

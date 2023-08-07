@@ -21,6 +21,6 @@ $app = AppFactory::create();
 $app->get('/', '\App\Controller\DashboardController:default');
 $app->get('/clients', '\App\Controller\ClientController:clients');
 $app->map(['GET', 'POST'],'/clients/new', '\App\Controller\ClientController:new_client');
-$app->get('/clients/{id:[0-9]+}', '\App\Controller\ClientController:client_details');
+$app->map(['UPDATE', 'DELETE'], '/clients/{id:[0-9]+}', '\App\Controller\ClientController:client_details');
 
 $app->run();
