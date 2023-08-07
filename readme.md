@@ -3,7 +3,7 @@
 <div>
   <p>
     <img src="https://user-images.githubusercontent.com/102390423/227807440-34793b38-b08b-4057-bc89-8aa7f55edeff.png" alt="icona di traduzione" width="20">
-    Puoi leggere questo README anche in <a href="https://github.com/Camila-Falaschi/Omniasoft-Clone-Project/blob/main/README.ing.md">inglese</a>.
+    Puoi leggere questo README anche in <a href="https://github.com/Camila-Falaschi/Omniasoft-Clone-Project/blob/master/readme.eng.md">inglese</a>.
   </p>
 </div>
 
