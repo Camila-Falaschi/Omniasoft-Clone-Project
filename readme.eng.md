@@ -20,8 +20,8 @@
 This is a condensed version of the software created by Omniasoft to manage invoices and clients.
 
 ### Demo
-<img src="https://github.com/Camila-Falaschi/Omniasoft-Clone-Project/assets/102390423/95410ad5-4d54-44af-9f4e-e61d3c7bab8c" alt="project gif" width="600">
-<img src="https://github.com/Camila-Falaschi/Omniasoft-Clone-Project/assets/102390423/95eca616-db68-4548-851a-0c5c96f7f82b" alt="project gif" width="600">
+<img src="https://github.com/Camila-Falaschi/Omniasoft-Clone-Project/assets/102390423/8873df3e-2aa3-4d76-a99b-3aecd41b894d" alt="project gif" width="600">
+<img src="https://github.com/Camila-Falaschi/Omniasoft-Clone-Project/assets/102390423/d4c5c973-e6bc-4414-b9af-be56ad76d0cb" alt="project gif" width="600">
 
 ## Installation
 To use this project, it is necessary to have composer installed.
