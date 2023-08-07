@@ -1,0 +1,38 @@
+{% extends "base.twig" %}
+
+{% block title %}Nuovo cliente - Fatturare{% endblock %}
+
+{% block additional_style %}
+    <link href="/css/new_client.css" rel="stylesheet">
+{% endblock %}
+
+{% block small_header %}
+    <h2>Nuovo cliente</h2>
+{% endblock %}
+
+{% block main_block %}
+    <div id='main-block-new-client' class='d-flex flex-column'>
+        <div id='form-section' class='flex-center flex-column'>
+            <div id='form-header-new-client'>
+                <button type="button" style='color: #ffffff; background-color: #4ea5e0;' class="btn btn-info form-button">Azienda</button>
+                <button type="button" style='color: #ffffff; background-color: #4ea5e0;' class="btn btn-info form-button">Privato</button>
+                <a href="https://www.indicepa.gov.it/documentale/n-ricerca-avanzata.php"  style='color: #6a6c6f' role="button" class="btn btn-default" target="_blank">
+                    <i  style='color: #6a6c6f' class="bi bi-search"></i>
+                    Ricerca Destinatario
+                </a>
+            </div>
+            <div style='width: 100%;'>
+                {% include 'clients/form.twig' %}
+            </div>
+        </div>
+        <div id='footer-form' class="d-flex">
+            <div style='width: 180px;' class="flex-justify-between">
+                <button type="reset" style='background-color: #ffffff; color: #6a6c6f' class="btn btn-default form-button">Cancella</button>
+                <button type="submit" style='color: #ffffff; background-color: #34495e;' class="btn btn-primary form-button"><i style='color: #ffffff' class="bi bi-file-earmark-post-fill"></i> Salva</button>
+            </div>
+            <div>
+                <span class="text-danger">*</span> Campi obbligatori
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -14,3 +14,9 @@ $(document).ready(function() {
         window.location.href = "/clients";
     });
 });
+
+$(document).ready(function() {
+    $("#new-cliente-button").click(function() {
+        window.location.href = "/clients/new";
+    });
+});

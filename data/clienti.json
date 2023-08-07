@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "nome": "Mario Rossi",
     "telefono": "+39 123456789",
     "codice_fiscale": "MRO12345",
@@ -7,6 +8,7 @@
     "data_modifica": "2023-07-31"
   },
   {
+    "id": 2,
     "nome": "Luca Bianchi",
     "telefono": "+39 987654321",
     "codice_fiscale": "LBI54321",
@@ -14,6 +16,7 @@
     "data_modifica": "2023-08-01"
   },
   {
+    "id": 3,
     "nome": "Giulia Verdi",
     "telefono": "+39 555555555",
     "codice_fiscale": "GVE54321",
@@ -21,6 +24,7 @@
     "data_modifica": "2023-07-30"
   },
   {
+    "id": 4,
     "nome": "Paolo Esposito",
     "telefono": "+39 111111111",
     "codice_fiscale": "PES11111",
@@ -28,6 +32,7 @@
     "data_modifica": "2023-07-29"
   },
   {
+    "id": 5,
     "nome": "Laura Conti",
     "telefono": "+39 222222222",
     "codice_fiscale": "LCO22222",
@@ -35,6 +40,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 6,
     "nome": "Roberto Ferrari",
     "telefono": "+39 333333333",
     "codice_fiscale": "RFE33333",
@@ -42,6 +48,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 7,
     "nome": "Anna Russo",
     "telefono": "+39 444444444",
     "codice_fiscale": "ARS44444",
@@ -49,6 +56,7 @@
     "data_modifica": "2023-07-31"
   },
   {
+    "id": 8,
     "nome": "Giovanni Galli",
     "telefono": "+39 555555555",
     "codice_fiscale": "GGA55555",
@@ -56,6 +64,7 @@
     "data_modifica": "2023-08-01"
   },
   {
+    "id": 9,
     "nome": "Elena Moretti",
     "telefono": "+39 666666666",
     "codice_fiscale": "EMO66666",
@@ -63,6 +72,7 @@
     "data_modifica": "2023-07-30"
   },
   {
+    "id": 10,
     "nome": "Marco Barbieri",
     "telefono": "+39 777777777",
     "codice_fiscale": "MBA77777",
@@ -70,6 +80,7 @@
     "data_modifica": "2023-07-29"
   },
   {
+    "id": 11,
     "nome": "Silvia Marchetti",
     "telefono": "+39 888888888",
     "codice_fiscale": "SMA88888",
@@ -77,6 +88,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 12,
     "nome": "Francesco Romano",
     "telefono": "+39 999999999",
     "codice_fiscale": "FRO99999",
@@ -84,6 +96,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 13,
     "nome": "Luca Rossi",
     "telefono": "+39 333 1234567",
     "codice_fiscale": "RSSLCU75M15H501L",
@@ -91,6 +104,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 14,
     "nome": "Martina Bianchi",
     "telefono": "+39 345 9876543",
     "codice_fiscale": "BNCMRT80H52H500I",
@@ -98,6 +112,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 15,
     "nome": "Marco Verdi",
     "telefono": "+39 333 5432167",
     "codice_fiscale": "VRDMRC90A04H501R",
@@ -105,6 +120,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 16,
     "nome": "Elena Romano",
     "telefono": "+39 345 6789123",
     "codice_fiscale": "RNMELN85L55H501A",
@@ -112,6 +128,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 17,
     "nome": "Giorgio Moretti",
     "telefono": "+39 333 2468135",
     "codice_fiscale": "MRTGGR88C06H501G",
@@ -119,6 +136,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 18,
     "nome": "Anna Ferrari",
     "telefono": "+39 345 7681923",
     "codice_fiscale": "FRRNNA82R02H501F",
@@ -126,6 +144,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 19,
     "nome": "Luigi Esposito",
     "telefono": "+39 333 9876543",
     "codice_fiscale": "SPTLUG80B21H501I",
@@ -133,6 +152,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 20,
     "nome": "Alessia Russo",
     "telefono": "+39 345 5678912",
     "codice_fiscale": "RSSLSA75C65H501R",
@@ -140,6 +160,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 21,
     "nome": "Simone Gatti",
     "telefono": "+39 333 9081726",
     "codice_fiscale": "GTTSIM89M15H501A",
@@ -147,6 +168,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 22,
     "nome": "Francesca De Luca",
     "telefono": "+39 345 5678901",
     "codice_fiscale": "DLCFNC88R41H501F",
@@ -154,6 +176,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 23,
     "nome": "Davide Conti",
     "telefono": "+39 333 1928374",
     "codice_fiscale": "CNTDVD83A22H501D",
@@ -161,6 +184,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 24,
     "nome": "Elisa Gentile",
     "telefono": "+39 345 0987654",
     "codice_fiscale": "GNTLSI80R03H501E",
@@ -168,6 +192,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 25,
     "nome": "Michele Sorrentino",
     "telefono": "+39 333 3456789",
     "codice_fiscale": "SRNMCL82C12H501M",
@@ -175,6 +200,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 26,
     "nome": "Veronica Amato",
     "telefono": "+39 345 5671234",
     "codice_fiscale": "MTVVRN83A53H501V",
@@ -182,6 +208,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 27,
     "nome": "Marco Rossi",
     "telefono": "+39 333 6543210",
     "codice_fiscale": "RSSMRC80A01H501M",
@@ -189,6 +216,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 28,
     "nome": "Giulia Bianchi",
     "telefono": "+39 345 5432109",
     "codice_fiscale": "BNCGIA85B02H501B",
@@ -196,6 +224,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 29,
     "nome": "Carlo Verdi",
     "telefono": "+39 333 8765432",
     "codice_fiscale": "VRDCLR90A03H501V",
@@ -203,6 +232,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 30,
     "nome": "Valentina Romano",
     "telefono": "+39 345 0987654",
     "codice_fiscale": "RNMVLN85M04H501R",
@@ -210,6 +240,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 31,
     "nome": "Andrea Moretti",
     "telefono": "+39 333 2345678",
     "codice_fiscale": "MRTNDR88C05H501A",
@@ -217,6 +248,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 32,
     "nome": "Sofia Ferrari",
     "telefono": "+39 345 8765432",
     "codice_fiscale": "FRRSFI80A06H501F",
@@ -224,6 +256,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 33,
     "nome": "Paolo Esposito",
     "telefono": "+39 333 5678901",
     "codice_fiscale": "SPTPLA75R07H501P",
@@ -231,6 +264,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 34,
     "nome": "Elena Russo",
     "telefono": "+39 345 1234567",
     "codice_fiscale": "RSSLNE85H08H501E",
@@ -238,6 +272,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 35,
     "nome": "Roberto Gatti",
     "telefono": "+39 333 9012345",
     "codice_fiscale": "GTTRBR88I09H501R",
@@ -245,6 +280,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 36,
     "nome": "Laura De Luca",
     "telefono": "+39 345 7654321",
     "codice_fiscale": "DLCRLA80D10H501L",
@@ -252,6 +288,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 37,
     "nome": "Davide Conti",
     "telefono": "+39 333 3456789",
     "codice_fiscale": "CNTDVD83A11H501D",
@@ -259,6 +296,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 38,
     "nome": "Elisa Gentile",
     "telefono": "+39 345 9876543",
     "codice_fiscale": "GNTLSI80E12H501E",
@@ -266,6 +304,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 39,
     "nome": "Michele Sorrentino",
     "telefono": "+39 333 1234567",
     "codice_fiscale": "SRNMCL82F13H501M",
@@ -273,6 +312,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 40,
     "nome": "Veronica Amato",
     "telefono": "+39 345 5678910",
     "codice_fiscale": "MTVVRN83G14H501V",
@@ -280,6 +320,7 @@
     "data_modifica": "2023-08-02"
   },
   {
+    "id": 41,
     "nome": "Fabrizio Rizzo",
     "telefono": "+39 333 0987654",
     "codice_fiscale": "RZZFBR88H15H501F",
