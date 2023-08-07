@@ -12,18 +12,16 @@
 
 - [About the project](#about-the-project)
   - [Demo](#demo)
-- [Build with](#build-with)
 - [Installation](#installation)
 - [Usage](#usage)
   - [Creating a Server](#creating-a-server)
 
 ## About the project
+This is a condensed version of the software created by Omniasoft to manage invoices and clients.
 
 ### Demo
-
-
-## Build with
-
+<img src="https://github.com/Camila-Falaschi/Omniasoft-Clone-Project/assets/102390423/95410ad5-4d54-44af-9f4e-e61d3c7bab8c" alt="project gif" width="600">
+<img src="https://github.com/Camila-Falaschi/Omniasoft-Clone-Project/assets/102390423/95eca616-db68-4548-851a-0c5c96f7f82b" alt="project gif" width="600">
 
 ## Installation
 To use this project, it is necessary to have composer installed.
